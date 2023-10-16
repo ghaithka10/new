@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lobster&family=Permanent+Marker&family=Sedgwick+Ave+Display&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Lobster&family=Permanent+Marker&family=Sedgwick+Ave+Display&family=Ubuntu&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 1440px;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 95%;
+    height: 500px;
+    margin-left: 50px auto;
+}
+.sedans{
+    width: 19%;
+    background-color: hsl(31, 77%, 52%);
+    height: 390px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.sedans svg{
+    margin: 30px 35px;
+}
+.sedans h2{
+    color: hsl(0, 0%, 95%);
+    margin: 0px 35px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.sedans p{
+    margin: 15px 35px;
+    width: 180px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 22px;
+}
+.sedans button{
+    margin: 50px 35px;
+    padding: 10px 36px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:600;
+    cursor: pointer;
+}
+.sedans button:hover{
+    background-color: inherit;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-weight:100;
+}
+
+.suvs{
+    width: 19%;
+    background-color: hsl(184, 100%, 22%);
+    height: 390px;
+}
+.suvs svg{
+    margin: 30px 35px;
+}
+.suvs h2{
+    color: hsl(0, 0%, 95%);
+    margin: 0px 35px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.suvs p{
+    margin: 15px 35px;
+    width: 190px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 22px;
+}
+.suvs button{
+    margin: 50px 35px;
+    padding: 10px 36px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:600;
+    cursor: pointer;
+}
+.suvs button:hover{
+    background-color: inherit;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-weight:100;
+}
+
+.luxury{
+    width: 19%;
+    background-color: hsl(179, 100%, 13%);
+    height: 390px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.luxury svg{
+    margin: 30px 35px;
+}
+.luxury h2{
+    color: hsl(0, 0%, 95%);
+    margin: 0px 35px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+.luxury p{
+    margin: 15px 35px;
+    width: 200px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 22px;
+}
+.luxury button{
+    margin: 50px 35px;
+    padding: 10px 36px;
+    border-radius: 20px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:600;
+    cursor: pointer;
+}
+.luxury button:hover{
+    background-color: inherit;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    font-weight:100;
+}
+@media(max-width:375px){
+    .container{
+        display:block;
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 22px;
+    }
+    .sedans{
+        height: 340px;
+        width: 22%;
+    }
+    .sedans button{
+        margin: 5px 35px;
+    }
+    .sedans p{
+        width: 220px;
+    }
+
+    .suvs{
+        height: 340px;
+        width: 22%;
+    }
+    .suvs button{
+        margin: 5px 35px;
+    }
+    .suvs p{
+        width: 220px;
+    }
+
+    .luxury{
+        height: 340px;
+        width: 22%;
+    }
+    .luxury button{
+        margin: 5px 35px;
+    }
+    .luxury p{
+        width: 220px;
+    }
+}
